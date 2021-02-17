@@ -1,12 +1,17 @@
 body {
-    background-color: aliceblue;
-    padding: 75px;
+    background-color: #F2CC8F;
 }
 
 /*Nav*/
-.nav {
+.navbar {
     padding: 15px;
-    background-color: white;
+    background-color: #E07A5F;
+}
+
+.navbar-brand {
+    font-family: 'Avenir';
+    color: #F4F1DE;
+    font-size: 170%;
 }
 
 .nav-item {
@@ -28,6 +33,7 @@ h2 {
 
 .midd {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 img {
