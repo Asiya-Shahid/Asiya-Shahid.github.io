@@ -41,7 +41,7 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/img/jamie-street-UtrE5DcgEyg-unsplash.jpg" alt="First slide">
+                <img class="d-block w-100" src="/img/PetBanner.png" alt="First slide"> <!--  This image is gonna change to the new app design-->
                 <div class="carousel-caption d-none d-md-block">
                     <h5>You will love this</h5>
                     <p>I guarentee it!</p>
@@ -79,4 +79,6 @@
             </div>
         </div>
     </div>
-</body></html>
+</body>
+
+</html>
