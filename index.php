@@ -25,13 +25,16 @@
             </div>
             <ul class="nav  navbar-right">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
+                    <a class="nav-link active" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stay Updated</a>
                 </li>
             </ul>
         </div>
@@ -41,10 +44,10 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/img/PetBanner.png" alt="First slide"> <!--  This image is gonna change to the new app design-->
+                <img class="d-block w-100" src="/img/PetClear.png" alt="First slide"> <!--  This image is gonna change to the new app design-->
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>You will love this</h5>
-                    <p>I guarentee it!</p>
+                    <h5>Take care of your pet</h5>
+                    <p>As if their already here!</p>
                 </div>
             </div>
         </div>
