@@ -1,5 +1,5 @@
 body {
-    background-color: #81B29A;
+    background-color: #9ec1b0;
 }
 
 /*Nav*/
@@ -38,4 +38,9 @@ h2 {
 
 img {
     float: right;
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
 }
