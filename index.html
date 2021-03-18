@@ -13,9 +13,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Pointers Promo</title>
+
+
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
 </head>
 
 <body>
+
+
     <!--    NAVBAR-->
 
     <nav class="navbar">
@@ -25,10 +48,10 @@
             </div>
             <ul class="nav  navbar-right">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">About</a>
+                    <a class="nav-link" href="#abouts">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#feat">Features</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">FAQ</a>
@@ -42,7 +65,7 @@
 
     <!--    CAROUSEL-->
 
-    <img class="d-block w-100" src="/img/PetClear.png" alt="First slide"> <!--  This image is gonna change to the new app design-->
+    <img class="w-100" src="/img/PetClear.png" alt="First slide"> <!--  This image is gonna change to the new app design-->
 
     <h2 class="midd" style="color: beige">Meet your new best friend!</h2>
     <h5 class="midd" style="color: beige; margin-bottom: 200px">As if their already here</h5>
@@ -50,7 +73,9 @@
     <!--    SOME CONTENT-->
     <div class="container" style="margin-bottom: 300px">
         <div class="row">
+
             <h1 style="color: #393939" class="midd">About</h1>
+            <a id="abouts"></a>
             <h5 style="color: #393939" class="midd">We created Pet Pointers to help ease the experience of pet ownership and make sure every animal can get their forever home</h5>
 
             <h4 style="color: #393939">Keeping the Pets in Mind</h4><br>
@@ -66,7 +91,7 @@
         </div>
     </div>
 
-
+    <a id="feat"></a>
     <div class="container" style="background-color: #E07A5F; border-radius: 25px; color: #F4F1DE; padding-top: 70px;">
         <div class="row">
             <div class="col-sm midd">
@@ -89,4 +114,5 @@
             </div>
         </div>
     </div>
+
 </body></html>
